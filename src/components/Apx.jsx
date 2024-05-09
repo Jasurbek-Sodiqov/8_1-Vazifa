@@ -1,9 +1,9 @@
 import React, { Component } from "react";
+import Chart from "react-apexcharts";
 
 class Apx extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       options: {
         chart: {
